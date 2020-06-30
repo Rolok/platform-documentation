@@ -3585,6 +3585,8 @@ print(type(number)) -- number
 
 ### <a id="event:Player.bindingPressedEvent"></a>Player.bindingPressedEvent
 
+While the bindingPressedEvent is an event, it happens on both client and server, so you don't need to send an event or anything, just have two scripts in different contexts.
+
 ### <a id="event:Player.bindingReleasedEvent"></a>Player.bindingReleasedEvent
 
 ### <a id="property:Player.maxWalkSpeed"></a>Player.maxWalkSpeed
